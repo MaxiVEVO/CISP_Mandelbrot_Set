@@ -16,9 +16,9 @@ int main()
 
 {
 
-	int pixelWidth = VideoMode::getDesktopMode().width/2;
+	int pixelWidth = VideoMode::getDesktopMode().width;
 
-	int pixelHeight = VideoMode::getDesktopMode().height/2;
+	int pixelHeight = VideoMode::getDesktopMode().height;
 
 	VideoMode vm(pixelWidth, pixelHeight);
 
