@@ -31,7 +31,7 @@ int main()
 	font.loadFromFile("ComicSansMs.ttf");
 	text.setFont(font);
 	text.setCharacterSize(20);
-	text.setFillColor(Color::Red);
+	text.setFillColor(Color::White);
 
 	while (window.isOpen())
 
